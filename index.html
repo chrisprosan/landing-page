@@ -7,46 +7,50 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="section-1">
-        <div class="nav">
-            <div class="logo">Header Logo</div>
-            <div class="link 1">Header link one</div>
-            <div class="link 2">Header link two</div>
-            <div class="link 3">Header link three</div>
+    <div class="section section-1 column">
+        <div class="nav row">
+            <div class="logo nav-left">Header Logo</div>
+            <ul class="links nav-right row">
+                <li><a href="#" class="link secondary">header link one</a></li>
+                <li><a href="#" class="link secondary">header link two</a></li>
+                <li><a href="#" class="link secondary">header link three</a></li>
+            </ul>
         </div>
-        <div class="overview">
-            <div class="text">This website is awesome</div>
-            <div class="text">
-                This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.
+        <div class="hero row">
+            <div class="column">
+                <div class="title">This website is awesome</div>
+                <div class="subtext">
+                    This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.
+                </div>
+                <button class="button">Sign up</button>
             </div>
-            <div class="button">Sign up</div>
             <div class="image">
                 <div class="placeholder">This is a placeholder for an image</div>
             </div>
         </div>
     </div>
-    <div class="section-2">
+    <div class="section section-2 column">
         <div class="header">Some random information.</div>
-        <div class="info">
-            <div class="item 1">
+        <div class="info row">
+            <div class="item item-1 column">
                 <div class="image"></div>
                 <div class="subtext">
                     This is some subtext under an illustration or image
                 </div>
             </div>
-            <div class="item 2">
+            <div class="item item-2 column">
                 <div class="image"></div>
                 <div class="subtext">
                     This is some subtext under an illustration or image
                 </div>
             </div>
-            <div class="item 3">
+            <div class="item item-3 column">
                 <div class="image"></div>
                 <div class="subtext">
                     This is some subtext under an illustration or image
                 </div>
             </div>
-            <div class="item 4">
+            <div class="item item-4 column">
                 <div class="image"></div>
                 <div class="subtext">
                     This is some subtext under an illustration or image
@@ -54,18 +58,22 @@
             </div>
         </div>
     </div>
-    <div class="section-3">
+    <div class="section section-3">
         <div class="quote">
             This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.
         </div>
         <div class="credit">-Thor, God of Thunder</div>
     </div>
-    <div class="section-4">
-        <div class="text">Call to action! It's time!</div>
-        <div class="text">Sign up for our product by clicking that button right over there!</div>
-        <div class="button">Sign up</div>
+    <div class="section section-4">
+        <div class="card row">
+            <div class="column">
+                <div class="text"><strong>Call to action! It's time!</strong></div>
+                <div class="text">Sign up for our product by clicking that button right over there!</div>
+            </div>
+            <button class="button">Sign up</button>
+        </div>
     </div>
-    <div class="footer">
+    <div class="section section-footer">
         <div class="copyright">Copyright &copy; The Odin Project 2021</div>
     </div>
 </body>
